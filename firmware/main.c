@@ -28,13 +28,7 @@ int main(void) {
 
 		byte0 = (char)(adc_value & 0x00FF);
 		byte1 = (char)((adc_value & 0xFF00) >> 8);
-		/*str[0] = byte1;
-		str[1] = byte0;
-		str[2] = '\0';*/
-		//snprintf(str, sizeof(str), "%u", adc_value);
-		//uint16_to_string(adc_value, str);
-		// 0001 1100 0001 1011
-		//  1	 C 	  1    B	
+	
 
 		for(i=0; usart_cnt()>0; i++){
 			string[i] = usart_read();
