@@ -1,0 +1,6 @@
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore environment and secret files
+.vscode/
