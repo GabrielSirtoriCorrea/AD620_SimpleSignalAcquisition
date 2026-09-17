@@ -8,10 +8,10 @@ Este projeto consiste em um módulo de condicionamento, amplificação e aquisi�
 
 * [Visão Geral](https://www.google.com/search?q=%23-vis%C3%A3o-geral)
 * [Arquitetura de Hardware](https://www.google.com/search?q=%23-arquitetura-de-hardware)
-* [1. Amplificador de Instrumentação (AD620)](https://www.google.com/search?q=%231-amplificador-de-instrumenta%C3%A7%C3%A3o-ad620)
-* [2. Gerador de Tensão Simétrica (ICL7660)](https://www.google.com/search?q=%232-gerador-de-tens%C3%A3o-sim%C3%A9trica-icl7660)
-* [3. Interface de Sinal e Acondicionamento](https://www.google.com/search?q=%233-interface-de-sinal-e-acondicionamento)
-* [4. Processamento e Comunicação (MCU / USB-UART)](https://www.google.com/search?q=%234-processamento-e-comunica%C3%A7%C3%A3o-mcu--usb-uart)
+* [Amplificador de Instrumentação (AD620)](https://www.google.com/search?q=%231-amplificador-de-instrumenta%C3%A7%C3%A3o-ad620)
+* [Gerador de Tensão Simétrica (ICL7660)](https://www.google.com/search?q=%232-gerador-de-tens%C3%A3o-sim%C3%A9trica-icl7660)
+* [Interface de Sinal e Acondicionamento](https://www.google.com/search?q=%233-interface-de-sinal-e-acondicionamento)
+* [Processamento e Comunicação (MCU / USB-UART)](https://www.google.com/search?q=%234-processamento-e-comunica%C3%A7%C3%A3o-mcu--usb-uart)
 
 
 * [Cálculos Teóricos de Ganho e Offset](https://www.google.com/search?q=%23-c%C3%A1lculos-te%C3%B3ricos-de-ganho-e-offset)
