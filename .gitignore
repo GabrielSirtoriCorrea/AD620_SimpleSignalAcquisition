@@ -1,6 +1,6 @@
 # Ignore build artifacts
-dist/
-build/
+firmware/dist/
+firmware/build/
 
 # Ignore environment and secret files
-.vscode/
+firmware/.vscode/
