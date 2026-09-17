@@ -2,8 +2,6 @@
 #include "drivers/usart.h"
 #include "drivers/adc.h"
 
-void uint16_to_string(uint16_t value, char *str);
-
 int main(void) {
 	cli();
 	usart_init(9600, 0);
@@ -43,33 +41,5 @@ int main(void) {
 		
 		_delay_ms(500);
 
-		/*if(string[0] != 0x00){
-			for(uint16_t i=0; str[i]!='\0'; i++)
-				usart_write(str[i]);
-		}*/
-
     }
-}
-
-void uint16_to_string(uint16_t value, char *str){
-    char temp[6];
-    uint8_t i = 0;
-    uint8_t j = 0;
-
-    if (value == 0) {
-        str[0] = '0';
-        str[1] = '\0';
-        return;
-    }
-
-    while (value > 0) {
-        temp[i++] = '0' + (value % 10);
-        value /= 10;
-    }
-
-    while (i > 0) {
-        str[j++] = temp[--i];
-    }
-
-    str[j] = '\0';
 }
