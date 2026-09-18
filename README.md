@@ -2,6 +2,9 @@
 
 Este projeto consiste em um módulo de condicionamento, amplificação e aquisição de sinais analógicos de baixa amplitude (como ponte de extensômetros, termopares ou sensores biomédicos) utilizando o **Amplificador de Instrumentação AD620**, gerador de fonte simétrica **ICL7660** e um microcontrolador **ATmega328P** (Arduino Uno) com comunicação serial USART.
 
+<img src="tests\Mídia.png" alt="Teste em bancada" width="300">
+<img src="tests\imagem.png" alt="Teste em bancada" width="300">
+
 ---
 
 ## 📌 Sumário
