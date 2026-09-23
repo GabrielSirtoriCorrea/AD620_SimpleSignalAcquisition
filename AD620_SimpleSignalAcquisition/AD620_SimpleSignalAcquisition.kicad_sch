@@ -5140,7 +5140,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10"
 			(at 252.73 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +6880,7 @@
 				)
 			)
 		)
-		(property "Value" "9.1k"
+		(property "Value" "91"
 			(at 240.03 144.78 90)
 			(show_name no)
 			(do_not_autoplace no)
