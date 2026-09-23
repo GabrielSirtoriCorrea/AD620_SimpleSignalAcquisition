@@ -51,7 +51,7 @@ O circuito está dividido em três blocos funcionais principais conforme demonst
 * **CI:** AD620 (U4)
 * **Função:** Amplificação diferencial de baixo ruído e alto CMRR.
 * **Resistor de Ganho ($R_G$):** $R_{10} = 1{,}5\text{ k}\Omega$.
-* **Tensão de Referência (Offset):** Divisor com $R_{13} = 9{,}1\text{ k}\Omega$ e $R_{14} = 1{,}0\text{ k}\Omega$, fornecendo $V_{ref} \approx 0{,}5\text{V}$ ao pino 5.
+* **Tensão de Referência (Offset):** Divisor com $R_{13} = 91\text{}\Omega$ e $R_{14} = 10\text{}\Omega$, fornecendo $V_{ref} \approx 0{,}5\text{V}$ ao pino 5.
 
 ### 2. Gerador de Tensão Simétrica (ICL7660)
 
@@ -137,8 +137,9 @@ O código-fonte foi desenvolvido em linguagem **C puro** para a arquitetura AVR,
 | **CH340C** | U1 | Conversor USB para Serial UART | 1 |
 | **ATmega328P / Arduino Uno** | A1 | Microcontrolador de 8-bits AVR | 1 |
 | **Resistor 1.5 kΩ** | R10 | Resistor de ajuste de ganho ($R_G$), 1/4W 1% | 1 |
-| **Resistor 1.0 kΩ** | R14 | Resistor do divisor de offset, 1/4W 1% | 1 |
-| **Resistor 9.1 kΩ** | R12, R13 | Resistores de condicionamento/offset, 1/4W 1% | 2 |
+| **Resistor 10 Ω** | R14 | Resistor do divisor de offset, 1/4W 1% | 1 |
+| **Resistor 91 Ω** | R12, R13 | Resistores de condicionamento/offset, 1/4W 1% | 1 |
+| **Resistor 9.1 kΩ** | R12, R13 | Resistores de condicionamento/offset, 1/4W 1% | 1 |
 | **Resistor 10 kΩ** | R8, R9, R11 | Resistores de ponte de entrada, 1/4W 1% | 3 |
 | **Trimpot 1 kΩ** | RV3 | Potenciômetro multivoltas para ajuste fino | 1 |
 | **Capacitor 100 nF** | C1, C5, C6 | Capacitor Cerâmico Desacoplamento / Filtro | 3 |
